@@ -1,0 +1,17 @@
+CREATE TABLE funcionario (
+  fun_codigo integer not null,
+  fun_nome varchar(60) not null,
+  fun_sexo varchar(1) not null,
+  fun_data_cadastro date not null,
+  PRIMARY KEY(fun_codigo)
+) ENGINE = innod  
+
+INSERT INTO venda (dataEntrega, horaEntrega)
+VALUES ("2018-12-03", "13:40:00");
+
+INSERT INTO controle_versao_bd VALUES (1, 'V_RLS_6_0_16_0');
+
+CREATE TABLE concentrador (
+  codigo_loja integer not null,  
+  PRIMARY KEY(codigo_loja)
+) ENGINE = innod
